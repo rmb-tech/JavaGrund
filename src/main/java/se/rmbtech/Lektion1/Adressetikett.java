@@ -1,4 +1,4 @@
-package Lektion1;
+package se.rmbtech.Lektion1;
 
 public class Adressetikett {
     public static void main(String[] args) {
