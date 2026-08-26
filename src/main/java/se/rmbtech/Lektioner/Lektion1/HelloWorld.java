@@ -1,4 +1,4 @@
-package se.rmbtech.Lektion1;
+package se.rmbtech.Lektioner.Lektion1;
 
 import java.time.LocalDate;
 

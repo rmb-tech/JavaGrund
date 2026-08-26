@@ -1,4 +1,4 @@
-package se.rmbtech.Lektion1;
+package se.rmbtech.Lektioner.Lektion1;
 
 public class Visitkort {
     public static void main(String[] args){
