@@ -5,7 +5,7 @@ public class HelloWorld {
         System.out.println("+----------------+");
         System.out.println("| Hej Världen 🌍 |");
         System.out.println("+----------------+");
-        System.out.println("Mitt namn är Rickard");
-        System.out.println("Dagens datum är 2026-08-24");
+        System.out.println("Mitt namn är Rickard Malm");
+        System.out.println("Dagens datum är 2026-08-26");
     }
 }
