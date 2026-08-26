@@ -19,3 +19,7 @@ Alla korta program från lektion 1 som använder sig av "System.out.println"
 * Topplista.java
 * Trappa.java
 * Visitkort.java
+
+## Lektion 2
+### HelloWorld
+Lade till variablar för namn och dagens datum
