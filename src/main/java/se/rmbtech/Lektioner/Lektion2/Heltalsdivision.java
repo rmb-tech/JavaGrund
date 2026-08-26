@@ -7,7 +7,7 @@ public class Heltalsdivision {
         double c = 10.0/ 3;
         double d = 10/ 3.0;
         double e = a;
-        double pi = 3.14;
+        double pi = 3.1415;
         int f = (int) pi; // Förlorar info
 
         System.out.println(a);
@@ -16,5 +16,6 @@ public class Heltalsdivision {
         System.out.println(d);
         System.out.println(e);
         System.out.println(f);
+        System.out.printf("Pi är ungefär %.2f%n", pi);
     }
 }
