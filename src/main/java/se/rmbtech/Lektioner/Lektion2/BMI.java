@@ -5,23 +5,27 @@ import java.util.Scanner;
 public class BMI {
     public static void main(String[] args) {
 
-        // Formel BMI = vikt / (längd_meter)2
-
         Scanner scanner = new Scanner(System.in);
+        String name;
+        int kg;
+        int cm;
+        double bmi;
 
         System.out.print("Vad är ditt namn: ");
-        String name = scanner.nextLine();
-        System.out.println(name);
+        name = scanner.nextLine();
 
         System.out.print("Vad är din vikt (kg) :");
-        int kg = scanner.nextInt();
+        kg = scanner.nextInt();
         scanner.nextLine();
 
         System.out.print("Vad är din längd (cm) :");
-        int cm = scanner.nextInt();
+        cm = scanner.nextInt();
+        scanner.nextLine();
 
-        System.out.println(name + kg + cm);
+        double langdM = cm / 100.0;
+        bmi = kg / (langdM * langdM);
 
+        System.out.printf("Hej %s, ditt BMI är %.2f %n", name, bmi);
         scanner.close();
 
     }
