@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Loopar {
     public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
+        /* Scanner scanner = new Scanner(System.in);
         // Testar vilkor först
         int count = 0;
         while (count < 3){
@@ -19,7 +18,7 @@ public class Loopar {
             input = scanner.nextInt();
             System.out.println("Du skrev: " + input);
         }while (input <= 0);
-        // Vet antalet varb
+        // Vet antalet varv
         for (int i = 0; i < 5; i++){
             System.out.println("Varv " + i);
         }
@@ -29,5 +28,13 @@ public class Loopar {
             System.out.println("Hej " + name);
         }
         scanner.close();
+        */
+
+        for (int row = 1; row <= 10; row++){
+            for (int col = 1; col <= 10; col++){
+                System.out.print(row * col + "\t");
+            }
+            System.out.println();
+        }
     }
 }

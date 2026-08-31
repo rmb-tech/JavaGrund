@@ -1,7 +1,9 @@
 # Java - Grund
 Innehåller filer som används i utbildningen.
 
-* Lektion 1
+* [Lektion 1](#lektion-1)
+* [Lektion 2](#lektion-2)
+* [Lektion 3](#lektion-3)
 
 ## Lektion 1
 ### HelloWorld
@@ -23,3 +25,35 @@ Alla korta program från lektion 1 som använder sig av "System.out.println"
 ## Lektion 2
 ### HelloWorld
 Lade till variablar för namn och dagens datum
+* BMI.java
+* BytaPlats.java
+* CircleArea.java
+* Decimaler.java
+* Dricks.java
+* Greetings.java
+* Heltalsdivision.java
+* Moms.java
+* Rabattberäkning.java
+* Räknare.java
+* ScannerTest.java
+* SedlartillMynt.java
+* SekunderTillTid.java
+* TemperatureConverter.java
+* Visitkort_v2.java
+
+## Lektion 3
+### Loopar och menyer
+
+* Betyg.java
+* BiggerThan3.java
+* Booleska.java
+* CountingUp.java
+* EvenOrOdd.java
+* FizzBuzz.java
+* Loopar.java
+* Multiplikationstabell.java
+* Mydighet.java
+* Nedräkning.java
+* PositivtNegorZero.java
+* StringEquals.java
+* Veckodag.java
