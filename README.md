@@ -51,9 +51,15 @@ Lade till variablar för namn och dagens datum
 * EvenOrOdd.java
 * FizzBuzz.java
 * Loopar.java
+* Medelvärde.java
+* MenyLoop.java
+* MinMaxSum.java
 * Multiplikationstabell.java
 * Mydighet.java
 * Nedräkning.java
 * PositivtNegorZero.java
+* Primtal.java
 * StringEquals.java
+* Talgissning.java
+* Trappor.java
 * Veckodag.java
