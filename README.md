@@ -34,7 +34,7 @@ Lade till variablar för namn och dagens datum
 * Heltalsdivision.java
 * Moms.java
 * Rabattberäkning.java
-* Räknare.java
+* Calc.java
 * ScannerTest.java
 * SedlartillMynt.java
 * SekunderTillTid.java
@@ -56,7 +56,7 @@ Lade till variablar för namn och dagens datum
 * MinMaxSum.java
 * Multiplikationstabell.java
 * Mydighet.java
-* Nedräkning.java
+* Countdown.java
 * PositivtNegorZero.java
 * Primtal.java
 * StringEquals.java

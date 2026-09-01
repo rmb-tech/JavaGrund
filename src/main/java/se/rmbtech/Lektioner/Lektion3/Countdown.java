@@ -1,6 +1,6 @@
 package se.rmbtech.Lektioner.Lektion3;
 
-public class Nedräkning {
+public class Countdown {
     public static void main(String[] args) {
         for (int i = 10; i > 1; i--){
             System.out.println(i);
