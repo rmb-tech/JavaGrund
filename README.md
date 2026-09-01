@@ -51,7 +51,7 @@ Lade till variablar för namn och dagens datum
 * EvenOrOdd.java
 * FizzBuzz.java
 * Loopar.java
-* Medelvärde.java
+* Medel.java
 * MenyLoop.java
 * MinMaxSum.java
 * Multiplikationstabell.java
