@@ -17,15 +17,19 @@ public class MenyLoop {
             System.out.println("2. Räkna BMI");
             System.out.println("3. Slumpa tal");
             System.out.println("4. Avsluta");
+
             System.out.print("Välj: ");
-            if (scanner.hasNextInt()) {
+            choice = scanner.nextInt();
+            scanner.nextLine();
+
+           /* if (scanner.hasNextInt()) {
                 choice = scanner.nextInt();
                 scanner.nextLine();
             } else {
                 System.out.println("Ogiltigt val. Försök igen.");
                 scanner.nextLine();
                 choice = -1;
-            }
+            } */
 
             switch (choice) {
                 case 1 ->  {
