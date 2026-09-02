@@ -63,3 +63,15 @@ Lade till variablar för namn och dagens datum
 * Talgissning.java
 * Trappor.java
 * Veckodag.java
+## Lektion 4
+### Metoder, modulerbarhet och felhantering
+
+* Area.java
+* BiggestOfTwo.java
+* FizzBuzzv2.java
+* Greeting.java
+* MenyLoopv2.java
+* OutsideIndex.java
+* TextToNumber.java
+* TheCopy.java
+* WithinRange.java
