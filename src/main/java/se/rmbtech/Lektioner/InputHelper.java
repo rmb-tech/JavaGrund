@@ -21,7 +21,7 @@ public class InputHelper {
         }
     }
 
-    public static int readIntBetween(Scanner scanner, String prompt, int min, int max) {
+    public static int readInt(Scanner scanner, String prompt, int min, int max) {
         while (true) {
             int value = readInt(scanner, prompt);
             if (value >= min && value <= max) {

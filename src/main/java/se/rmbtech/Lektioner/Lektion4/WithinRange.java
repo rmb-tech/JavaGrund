@@ -2,7 +2,7 @@ package se.rmbtech.Lektioner.Lektion4;
 
 import java.util.Scanner;
 
-import static se.rmbtech.Lektioner.InputHelper.readIntBetween;
+import static se.rmbtech.Lektioner.InputHelper.readInt;
 
 public class WithinRange {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class WithinRange {
         //int age = checkAge(scanner);
         //System.out.printf("Du angav %d%n " , age);
 
-        int grade = readIntBetween (scanner, "Betyg (1-5): ", 1 , 5);
+        int grade = readInt (scanner, "Betyg (1-5): ", 1 , 5);
         System.out.printf("Tack, du gav betyget %s.%n", grade );
     }
 

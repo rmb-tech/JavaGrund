@@ -14,7 +14,7 @@ public class MenyLoopv2 {
 
         while (running) {
             showMenu();
-            choice = InputHelper.readIntBetween(scanner, "Välj: ", 1, 4);
+            choice = InputHelper.readInt(scanner, "Välj: ", 1, 4);
             switch (choice) {
                 case 1 -> greetings(scanner);
 
@@ -66,7 +66,7 @@ public class MenyLoopv2 {
         } else if (bmi < 30) {
             return "övervikt";
         } else {
-            return "fetma";
+            return "obesitas";
         }
     }
 
@@ -74,21 +74,8 @@ public class MenyLoopv2 {
         System.out.println("====================================");
         System.out.printf("Hej %s, ditt BMI är %.1f %n", name, bmi);
         System.out.println("Hälsosamt BMI är mellan 18.5 och 25");
-
-        // Undervikt, normalvikt, övervikt
-        if (bmi < 18.5) {
-            System.out.println("Ditt BMI indikerar undervikt!");
-            System.out.println("====================================");
-        } else if (bmi < 25) {
-            System.out.println("Ditt BMI ligger inom spannet för normalvikt!");
-            System.out.println("====================================");
-        } else if (bmi < 30) {
-            System.out.println("Ditt BMI indikerar övervikt!");
-            System.out.println("====================================");
-        } else {
-            System.out.println("Ditt BMI indikerar Obesitas!");
-            System.out.println("====================================");
-        }
+        System.out.println("Ditt BMI indikerar " + kategori + "!");
+        System.out.println("====================================");
     }
 
     private static void randomNumberGenerator(Random random) {

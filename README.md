@@ -68,10 +68,16 @@ Lade till variablar för namn och dagens datum
 
 * Area.java
 * BiggestOfTwo.java
+* CelsiusConverter.java
 * FizzBuzzv2.java
+* FlexibleRounder.java
 * Greeting.java
+* InputHelper.java
+* InputHelperDemo.java
 * MenyLoopv2.java
 * OutsideIndex.java
+* SafeAverage.java
+* SafeDivision.java
 * TextToNumber.java
 * TheCopy.java
 * WithinRange.java
